@@ -1,0 +1,28 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment folders
+env/
+venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE or editor files
+.vscode/
+.idea/
+
+# Ignore system files (Windows and macOS)
+.DS_Store
+Thumbs.db
+
+# Ignore artifacts or build-related files (if any)
+artifacts/
+
+# Ignore metadata for Python packaging
+src.egg-info/
+
+# Ignore setup shell file if it's for local setup (optional)
+setup.sh
